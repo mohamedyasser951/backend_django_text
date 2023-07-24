@@ -7,7 +7,7 @@ def index(request):
         "name":"ahmed00",
         "age":"2011515"
     }
-    return render(request=request,template_name="pages\index.html",context=data)
+    return render(request=request,template_name="pages/index.html",context=data)
 
 def about(request):
-    pass
+    return render(request=request,template_name="pages/about.html")

@@ -6,6 +6,8 @@ admin.site.register(Female)
 admin.site.register(Male)
 admin.site.register(User)
 admin.site.register(Product)
-
 admin.site.register(Student)
 admin.site.register(subject)
+
+admin.site.site_header = "DASHBOARD"
+admin.site.site_title = "DASHBOARD"

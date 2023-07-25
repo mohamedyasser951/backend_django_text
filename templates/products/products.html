@@ -3,7 +3,17 @@
 
 {% block content %}
 
-<h1>Products Page</h1>
 
+
+
+{% for x in pro %}
+ <h1>{{x.name}} </h1>
+
+<h2>{{x.content}} </h2>
+
+<h4>{{x.price}} </h4>
+
+<img src ="{{x.image.url}}" alt ="notfound" >
+{% endfor %} 
 
 {% endblock content %}
